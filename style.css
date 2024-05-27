@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+@media  (min-width:1530px){
+    body{
+        padding:2.5rem;
+    }
+}
+
+#knowmore  img{
+    transition: 0.3s ease;
+}
+
+#knowmore img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
